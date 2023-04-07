@@ -1,3 +1,3 @@
 # Project
 
-The app can be used after you have unzipped the zip file
+The app can be used after you have unzipped the zip file (MacOS)
