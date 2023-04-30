@@ -1,8 +1,6 @@
 # 2023, RaymondRaman - HTML CSS Shopping Website Projcet
 
-
-
-<div style="left-padding:20px" https://user-images.githubusercontent.com/107023977/235345527-a7140800-0b7e-4931-91c8-b595e87c8e0e.mov>
+ https://user-images.githubusercontent.com/107023977/235345527-a7140800-0b7e-4931-91c8-b595e87c8e0e.mov
 
 
 
