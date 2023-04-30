@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Sam", 
+        "img": "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg",
+        "testimonial": "The customer support is amazing!",
+        "occupation": "Customer Success Manager" 
+    },
+    
+    {
+        "name": "Sam", 
+        "img": "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg",
+        "testimonial": "The customer support is amazing!",
+        "occupation": "Customer Success Manager" 
+    },
+
+    {
+        "name": "Sam", 
+        "img": "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg",
+        "testimonial": "The customer support is amazing!",
+        "occupation": "Customer Success Manager" 
+    },
+
+    {
+        "name": "Sam", 
+        "img": "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg",
+        "testimonial": "The customer support is amazing!",
+        "occupation": "Customer Success Manager" 
+    },
+
+    {
+        "name": "Sam", 
+        "img": "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg",
+        "testimonial": "The customer support is amazing!",
+        "occupation": "Customer Success Manager" 
+    },
+
+    {
+        "name": "Karen",
+        "img": "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156__340.jpg",
+        "testimonial": "I'm very satisfied with this product.",
+        "occupation": "Product Manager" 
+    }
+    
+]
+
