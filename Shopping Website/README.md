@@ -1,4 +1,4 @@
-#@2023, RaymondRaman - HTML CSS Shopping Website Projcet
+# @2023, RaymondRaman - HTML CSS Shopping Website Projcet
 
 External libraries:
 
@@ -23,5 +23,6 @@ crossorigin="anonymous"></script>
 
 Total and real working time:
 40 hours: 
+
 Wasted 10 hours on solving the bugs in testimonials.jason, the solution is very simple, 
 just need to move the testimonials.jason to public file
