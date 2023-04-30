@@ -1,4 +1,4 @@
-# @2023, RaymondRaman - HTML CSS Shopping Website Projcet
+#2023, RaymondRaman - HTML CSS Shopping Website Projcet
 
 External libraries:
 
