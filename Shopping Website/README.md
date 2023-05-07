@@ -16,6 +16,5 @@ Wasted 10 hours on solving the bugs in testimonials.jason, the solution is very 
 just need to move the testimonials.jason to public file
 
 
-Notice that the above files are not the complete application, just the html, css javascript in one single php file
-
+Notice that the Website are not the complete application.
 
