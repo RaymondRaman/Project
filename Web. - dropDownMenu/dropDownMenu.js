@@ -1,3 +1,4 @@
+// base URL of the server, domain
 const HOST = 'server.com/';
 
 function populateCategories(category) {
@@ -19,6 +20,7 @@ function populateCategories(category) {
 
 function showSubmenu() {
     const submenu = document.getElementsByClassName("menu__sub")[0];
+    // allows the submenu to be displayed as a block-level element
     submenu.style.display = "block";
 
     populateCategories('top');
@@ -30,9 +32,11 @@ function showSubmenu() {
     submenu.style.display = "none";
   }
 
+  // variable used to keep track of the currently active menu item.
   let activeMenuItem = null;
   
   function onMenuItemMouseEnter(item) {
+    // ensures that only one menu item can be active at a time.
     if(activeMenuItem){
         activeMenuItem.classList.remove("menu__main__item--active");
     }
