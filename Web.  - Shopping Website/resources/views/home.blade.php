@@ -12,6 +12,22 @@
 
     <!-- CSS -->
     <style>
+        :root {
+            --dark-grey: #222
+            --gray: #262626;
+            --golden-treasure: #ffbd27;
+            --tangaroa: #041E42;
+            --white: #fff;
+            --black: #000;
+            --dark-cyan: #088178;
+            --alice-blue: #F1FBFF;
+            --secluded-woods: #465b52;
+            --dark-blue: #6c757d;
+            --stormy-blue: #818ea0;
+            --blue: #0000ff;
+            --black-russian: #000000a6;
+        }
+
         * {
             font-family: 'Spartan', sans-serif;
             margin: 0;
@@ -22,19 +38,19 @@
         h1 {
             font-size: 50px;
             line-height: 64px;
-            color: #222;
+            color: var(--dark-grey);
         }
 
         h2 {
             font-size: 46px;
             line-height: 54px;
-            color: #222;
+            color: var(--dark-grey);
         }
 
         h4 {
 
             font-size: 20px;
-            color: #222;
+            color: var(--dark-grey);
         }
 
 
@@ -59,7 +75,7 @@
 
         body {
             width: 100%;
-            background: #f1fbff;
+            background: var(--alice-blue);
             overflow-x: hidden;
             zoom: 80%;
         }
@@ -95,13 +111,13 @@
             text-transform: uppercase;
             transition: 0.3s ease;
             font-weight: 500;
-            color: black";
+            color: var(--black-russian);
 
         }
 
         .navbar li a:hover,
         .navbar li a.nav-link.active {
-            color: #088178;
+            color: var(--dark-cyan);
         }
 
         .navbar li a.nav-link.active::after,
@@ -109,7 +125,7 @@
             content: "";
             width: 30%;
             height: 2px;
-            background: #088178;
+            background: var(--dark-cyan);
             position: absolute;
             bottom: -4px;
             left: 20px;
@@ -119,8 +135,8 @@
             font-size: 14px;
             font-weight: 600;
             padding: 15px 30px;
-            color: #000;
-            background-color: #fff;
+            color: var(--black);
+            background-color: var(--white);
             border-radius: 4px;
             cursor: pointer;
             border: none;
@@ -214,7 +230,7 @@
         #testimonial-carousel .box {
             align-items: center;
             justify-content: center;
-            color: #262626;
+            color: var(--gray);
             width: 100%;
             height: 100%;
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
@@ -260,24 +276,24 @@
         }
 
         .banner h3 {
-            color: black;
+            color: var(--black);
             font-size: 25px;
             padding: 10px 26px;
         }
 
         .banner h2 {
-            color: black;
+            color: var(--black);
             font-size: 30px;
         }
 
         .banner h2 span {
-            color: #ffbd27;
+            color: var(--golden-treasure);
             padding-bottom: 10px;
         }
 
         .banner button:hover {
-            background-color: #088178;
-            color: #fff;
+            background-color: var(--dark-cyan);
+            color: var(--white);
             padding: 10px 26px;
         }
 
@@ -297,8 +313,8 @@
         }
 
         .contact button:hover {
-            background-color: blue;
-            color: #fff;
+            background-color: var(--blue);
+            color: var(--white);
         }
 
         input[type="checkbox"] {
@@ -314,7 +330,7 @@
             align-items: center;
             flex-wrap: wrap;
             background-position: 20% 20%;
-            background-color: #041e42;
+            background-color: var(--tangaroa);
             width: 100%;
             height: 20vh;
         }
@@ -322,7 +338,7 @@
         #newsletter h2 {
             font-size: 30px;
             font-weight: 700;
-            color: #fff;
+            color: var(--white);
             padding: 0px 26px;
         }
 
@@ -335,13 +351,13 @@
         #newsletter h4 {
             font-size: 17px;
             font-weight: 600;
-            color: #818ea0;
+            color: var(--stormy-blue);
             padding: 0px 26px;
             ;
         }
 
         #newsletter h4 span {
-            color: #ffbd27;
+            color: var(--golden-treasure);
         }
 
 
@@ -359,8 +375,8 @@
 
         #newsletter button {
             height: 3.125rem;
-            background-color: #088178;
-            color: #fff;
+            background-color: var(--dark-cyan);
+            color: var(--white);
             white-space: nowrap;
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
@@ -393,24 +409,24 @@
         #footer p {
             font-size: 20px;
             margin: 0 0 8px 0;
-            color: #6c757d;
+            color: var(--secluded-woods);
         }
 
         #footer a {
             font-size: 20px;
             text-decoration: none;
-            color: #6c757d;
+            color: var(--secluded-woods);
             margin-bottom: 10px;
         }
 
         #footer .follow {
             margin-top: 20px;
             font-size: 20px;
-            color: #6c757d;
+            color: var(--dark-blue);
         }
 
         #footer .follow i {
-            color: #465b52;
+            color: var(--secluded-woods);
             padding-right: 10px;
             cursor: pointer;
             font-size: 15px;
@@ -433,7 +449,7 @@
             h1 {
                 font-size: 30px;
                 line-height: 64px;
-                color: #222;
+                color: var(--dark-grey);
             }
 
             .banner h3 {
