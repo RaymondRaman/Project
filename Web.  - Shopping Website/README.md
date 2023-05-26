@@ -8,9 +8,6 @@ https://user-images.githubusercontent.com/107023977/235345648-b22b1974-e9a5-4e41
 External libraries:
 Front Awesome, Boostrap, jQuery
 
-Total and real working time:
-40 hours: 
-
 Wasted 10 hours on solving the bugs in testimonials.jason, the solution is very simple, 
 just need to move the testimonials.jason to public file
 
