@@ -1,18 +1,3 @@
-// Li Ka Wai 1155175898
-// I declare that the lab work here submitted is original
-// except for source material explicitly acknowledged,
-// and that the same or closely related material has not been
-// previously submitted for another course.
-// I also acknowledge that I am aware of University policy and
-// regulations on honesty in academic work, and of the disciplinary
-// guidelines and procedures applicable to breaches of such
-// policy and regulations, as contained in the website.
-// University Guideline on Academic Honesty:
-// https://www.cuhk.edu.hk/policy/academichonesty/
-// Student Name : Li Ka Wai
-// Student ID : 1155175898
-// Class/Section : CSCI2720
-// Date : 14-10-2023 
 
 // Closing the navbar menu after clicking on a link (when the screen is small)
 const navItem = document.querySelectorAll('#navBarMenu .nav-link');
