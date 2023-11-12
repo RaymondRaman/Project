@@ -1,0 +1,291 @@
+/* Li Ka Wai 1155175898 */
+/* I declare that the lab work here submitted is original
+except for source material explicitly acknowledged,
+and that the same or closely related material has not been
+previously submitted for another course.
+I also acknowledge that I am aware of University policy and
+regulations on honesty in academic work, and of the disciplinary
+guidelines and procedures applicable to breaches of such
+policy and regulations, as contained in the website.
+University Guideline on Academic Honesty:
+https://www.cuhk.edu.hk/policy/academichonesty/
+Student Name : Li Ka Wai
+Student ID : 1155175898 
+Class/Section : CSCI2720
+Date : 14-10-2023 */
+
+/* General style */
+:root {
+    --alice-blue: #F1FBFF;
+    --dark-grey: #222;
+    --stormy-blue: #818ea0;
+    --black-russian: #000000a6;
+    --regent-grey: #777;
+    --grey95: #f2f2f2;
+    --bg-light: #f8f9fa;
+}
+
+* {
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    background: var(--alice-blue);
+    overflow-x: hidden;
+}
+
+.section-padding {
+    padding: 70px 50px;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: var(--regent-grey);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+/* General style END */
+
+/* Header CSS */
+.navbar .navbar-brand {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    color: var(--dark-grey);
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+/* Add some hover effect to navbar */
+.navbar li a:hover {
+    color: var(--stormy-blue);
+    cursor: pointer;
+}
+
+.navbar .logo_container :hover {
+    color: var(--stormy-blue);
+    cursor: pointer;
+}
+
+/* Center the menu in small screen */
+.navbar-nav {
+    align-items: center;
+}
+
+/* Hide or Show button CSS */
+.navbar #SecondNavBar {
+    display: none;
+}
+
+.navbar #thirdNavBar {
+    display: none;
+    width: 400px;
+}
+
+#shortIntroduction {
+    margin-top: 70px;
+}
+
+#hideOrShow {
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: var(--dark-grey);
+    align-items: center;
+}
+
+#hideOrShow:hover {
+    color: inherit;
+    background-color: inherit;
+    color: var(--stormy-blue);
+    border-color: var(--bg-light);
+    cursor: pointer;
+}
+
+/* Header CSS END */
+
+/* Main CSS */
+/* Short Introduction  */
+.shortIntro {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.intro-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.shortIntro h3 {
+    font-size: 24px;
+    margin: 5px 0;
+    color: var(--black-russian);
+    white-space: nowrap;
+}
+
+.shortIntro img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Short Introduction END */
+/* Table CSS */
+
+table {
+    border-collapse: separate;
+    border-radius: 10px;
+    border-color: var(--regent-grey);
+}
+
+th {
+    background-color: var(--grey95);
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--stormy-blue);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.table-aside {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+/* Table CSS END */
+
+/* Spotlight CSS */
+.currSpotlightText {
+    display: flex;
+}
+
+.currSpotlightText svg {
+    flex-shrink: 0;
+    margin-right: 0px;
+}
+
+/* Spotlight CSS END */
+
+/* Previous Comments CSS */
+#previousComment {
+    display: none;
+}
+
+/* Previous Comments CSS END */
+/* Main CSS END */
+
+/* Footer CSS */
+#footer h6 {
+    text-align: center;
+}
+
+/* Footer CSS END */
+
+/* Responsive CSS */
+/* Small device */
+@media (min-width: 320px) {
+
+    .table-aside {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    th,
+    td {
+        font-size: 8px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .shortIntro h3 {
+        font-size: 8px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    #spotlight h6 {
+        font-size: 14px;
+    }
+
+    .table-aside {
+        padding-top: 10px;
+    }
+
+}
+
+/* Medium device */
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .shortIntro h3 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .table-aside {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+    }
+
+    #spotlight h6 {
+        font-size: 20px;
+    }
+
+}
+
+/* Large device */
+@media (min-width: 992px) {
+    .table-aside {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    th,
+    td {
+        font-size: 16px;
+    }
+
+    #spotlight h6 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+
+}
