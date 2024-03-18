@@ -1,4 +1,4 @@
-#Assignment 2 - Redesign Discord
+## Redesign Discord
 <br>
 Reference (Rebuilt & Redesign): https://www.youtube.com/watch?v=5IanQIwhA4E&t=2038s
 <br>
